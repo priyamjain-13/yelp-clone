@@ -10,7 +10,7 @@ export const RestaurantsContextProvider = (props) => {
 
     return(
         <RestaurantsContext.Provider value = {{Restaurants,setRestaurants}}>
-            {props.children}
+            {props.children
         </RestaurantsContext.Provider>
     );
 };
