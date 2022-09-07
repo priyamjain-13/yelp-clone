@@ -15,7 +15,7 @@ const RestaurantList = (props) => {
     };
 
     fetchData();
-  }, []); //the array is an empty dependency that we have to pass in useEffect hook
+  }, []); //the array is an empty dependency that we have to pass in useEffect hook ab
 
   return (
     <div className="list-group">
